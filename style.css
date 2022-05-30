@@ -492,6 +492,8 @@ body{
 
 
 
+
+
 .flex_left_property{
   display: flex;
   justify-content: left;
@@ -514,6 +516,12 @@ body{
   @media (max-width: 990px) {
     #main_container{
       background-color: #6495ED;
+    }
+    .oi{
+      width: 700px;
+    }
+    .margin{
+      margin-top: 100px;
     }
     .flex_center_property{
       display: flex;
