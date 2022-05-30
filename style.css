@@ -5,6 +5,7 @@
   color: #999;
   margin: 0;
   font-family: "Work Sans",arial,sans-serif;
+
 }
 body{
  max-width: 2000px;
@@ -411,7 +412,7 @@ body{
 
 .blog{
 
-  max-height: 400px;
+  max-height: 350px;
 }
 
 .fill {
@@ -614,7 +615,7 @@ body{
       margin-left: 20px;
     }
     .box{
-      width:460px;
+      width:360px;
 
     }
   .we_are_your_partner{
@@ -686,8 +687,86 @@ body{
 
   @media (max-width: 800px) {
     .oi{
-      width: 400px;
+      width: 600px;
     }
 
+   }
+   @media (max-width: 700px) {
+    .oi{
+      width: 550px;
+    }
+
+   }
+   @media (max-width: 600px) {
+    .oi{
+      width: 450px;
+    }
+
+
+   }
+   @media (max-width: 500px) {
+    .oi{
+      width: 350px;
+    }
+      .far_far_away{
+        font-size: 13px;
+        max-width: 60%;
+      }
+      .we_are_your_partner{
+
+          max-width: 60%;
+
+      }
+
+
+    .cardnew{
+      display: inline-block;
+      width:250px;
+      height: 250px;
+      box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+    .leadership_sub_card{
+      width: 100px;
+      height: 150px;
+      background: white;
+      position: absolute;
+      margin-top: 330px;
+      margin-left: 50px;
+    }
+    .ON500{
+      margin-left: 50px;
+    }
+
+   }
+
+   @media (max-width: 361px) {
+    .leadership_sub_card{
+      width: 100px;
+      height: 150px;
+      background: white;
+      position: absolute;
+      margin-top: 330px;
+      margin-left: 15px;
+    }
+   }
+   @media (max-width: 394px) {
+    .leadership_sub_card{
+      width: 100px;
+      height: 150px;
+      background: white;
+      position: absolute;
+      margin-top: 330px;
+      margin-left: 20px;
+    }
+   }
+   @media (max-width: 415px) {
+    .leadership_sub_card{
+      width: 100px;
+      height: 150px;
+      background: white;
+      position: absolute;
+      margin-top: 330px;
+      margin-left: 25px;
+    }
    }
 
