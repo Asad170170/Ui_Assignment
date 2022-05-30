@@ -13,7 +13,7 @@ body{
 
 }
 .backgroundImage{
-  background-image: url("main_img.webp");
+  background-image: url("main_img2.jpeg");
   height: auto;
   position: absolute;
   z-index: -6;
@@ -21,7 +21,7 @@ body{
   min-width: 100%;
   min-height: 600px;
   max-width: 160px;
-  filter: brightness(70%);
+  
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -39,7 +39,9 @@ body{
   height: 300px;
   margin-top: 100px;
 }
-
+.text-light{
+  color: white;
+}
 
 #box1{
   margin-top: 170px;
@@ -616,7 +618,6 @@ body{
     }
     .box{
       width:360px;
-
     }
   .we_are_your_partner{
     font-size: 23px;
@@ -767,6 +768,12 @@ body{
       position: absolute;
       margin-top: 330px;
       margin-left: 25px;
+    }
+   }
+
+   @media (max-width: 361px) {
+    .box{
+      width:309px;
     }
    }
 
